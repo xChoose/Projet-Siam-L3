@@ -1,0 +1,149 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#reInit {
+    position: absolute;
+    margin-left : 22%;
+    top: 350px;
+    font-size: 20px; 
+    padding: 10px 20px;
+}
+
+#annuler {
+    position: absolute;
+    margin-left : 22%;
+    top: 400px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.bouton1 {
+    position: absolute;
+    margin-left : 22%;
+    top: 450px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.bouton2 {
+    position: absolute;
+    margin-left : 22%;
+    top: 500px;
+    font-size: 20px; 
+    padding: 10px 20px;
+}
+
+.bouton3 {
+    position: absolute;
+    margin-left : 22%;
+    top: 550px;
+    font-size: 20px; 
+    padding: 10px 20px;
+}
+
+.bouton4 {
+    position: absolute;
+    margin-left : 22%;
+    font-size: 20px; 
+    padding: 10px 20px;
+    top: 600px;
+}
+
+#Partie {
+    font-family: Arial, sans-serif; /* Police de caractères */
+    font-size: 16px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+    background-color: #f0f0f0; /* Couleur de fond */
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 5px; /* Bord arrondi */
+    text-align: center; /* Alignement du texte au centre */
+}
+
+#joueurConnecte {
+    font-family: Arial, sans-serif; /* Police de caractères */
+    font-size: 20px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+    background-color: #f0f0f0; /* Couleur de fond */
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 5px; /* Bord arrondi */
+    text-align: center; /* Alignement du texte au centre */
+}
+
+#createur {
+    font-family: Arial, sans-serif; /* Police de caractères */
+    font-size: 20px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+    background-color: #f0f0f0; /* Couleur de fond */
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 5px; /* Bord arrondi */
+    text-align: center; /* Alignement du texte au centre */
+}
+
+#adversaire {
+    font-family: Arial, sans-serif; /* Police de caractères */
+    font-size: 20px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+    background-color: #f0f0f0; /* Couleur de fond */
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 5px; /* Bord arrondi */
+    text-align: center; /* Alignement du texte au centre */
+}
+
+#tour {
+    font-family: Arial, sans-serif; /* Police de caractères */
+    font-size: 20px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+    background-color: #f0f0f0; /* Couleur de fond */
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 5px; /* Bord arrondi */
+    text-align: center; /* Alignement du texte au centre */
+}
+
+#plateau {
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    background-image: url("../img/plateau.jpg");
+    background-position:center;
+    background-size: 78%;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.pion,.case {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.pion:hover,.case:hover {
+    background-color: rgba(255,0,0,0.5);
+}
+
+.sortie:hover {
+    background-color: rgba(255,0,0,0.25);
+}
+
+.cliquable {
+    background-color: rgba(0,255,0,0.25);
+}
+
+.sortieCliquable {
+    background-color: rgba(255,0,0,0.25);
+}
+
+.selection {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.deplace {
+    background-color: rgba(255,255,0,0.25)
+}
+
+.enEvidence {
+    background-color: rgba(255,255,255,0.3);
+}

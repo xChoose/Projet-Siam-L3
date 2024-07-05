@@ -1,0 +1,140 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    display: flex; /* Utilisation de Flexbox */
+    justify-content: space-between; /* Espacement des conteneurs */
+}
+
+.parties-container {
+    flex-grow: 1; /* Les deux conteneurs prennent autant d'espace que possible */
+}
+
+/* Styles pour les sections de parties */
+.parties {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.parties h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.parties ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.parties li {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.parties li:last-child {
+    border-bottom: none;
+}
+
+.parties h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.parties p {
+    margin: 5px 0;
+}
+
+/* Ajout pour les boutons */
+button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn-back {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+/* Ajout pour les boutons Rejoindre et Supprimer */
+.btn-delete,
+.btn-join {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover,
+.btn-join:hover {
+    background-color: #c82333;
+}
+
+.btn-delete:focus,
+.btn-join:focus {
+    outline: none;
+}
+
+.btn-join {
+    background-color: #007bff;
+    margin-right: 10px;
+}
+
+.btn-join:hover {
+    background-color: #0056b3;
+}
+/* Ajout pour aligner les boutons horizontalement */
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container form {
+    margin-right: 10px;
+}
